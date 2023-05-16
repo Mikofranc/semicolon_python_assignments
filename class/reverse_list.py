@@ -1,5 +1,6 @@
-numbers = [1,2, 3, 4, 5]
-reverse_list =[]
-for number in numbers:
-    reverse_list = number[::-1]
-print(reverse_list)
+def reversed_the_list(lst):
+    print(list(reversed(lst)))
+
+
+numbers = [2, 3, 4, 5, 6]
+reversed_the_list(numbers)
